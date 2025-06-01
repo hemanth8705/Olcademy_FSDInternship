@@ -1,0 +1,34 @@
+# Ignore node modules for ANY subdirectory (client, server, etc.)
+**/node_modules/
+
+# Ignore build output directories
+**/dist/
+**/dist-ssr/
+
+# Logs and debugging files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files (don't push sensitive credentials)
+*.env
+client/.env
+server/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# Other temporary files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
